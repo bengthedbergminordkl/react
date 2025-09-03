@@ -1,5 +1,6 @@
 import React from 'react';
-import { useForm, Controller, UseFormRegister, FieldError } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
+import type { UseFormRegister, FieldError } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 
